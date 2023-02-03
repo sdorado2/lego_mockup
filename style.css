@@ -1,0 +1,72 @@
+/* TopBox */
+.topBox {
+  /* display: flex; */
+  border: solid black;
+  height: 12vh;
+  margin: auto;
+}
+
+.firstBox {
+  display: flex;
+  height: 5.5vh;
+  border: solid red;
+}
+.btn {
+  border: solid aqua;
+  width: 33%;
+}
+.games{
+    background-color: solid aqua;
+    margin : 20px 30px 20px 30px;
+}
+.offers {
+  border: solid greenyellow;
+  width: 33%;
+}
+.account {
+  border: solid burlywood;
+  width: 33%;
+}
+
+.secondBox {
+  display: flex;
+  background-color :  #FFED00;
+  border: solid blue;
+  height: 5.5vh;
+}
+.leftBox {
+  border: solid purple;
+  width: 33%;
+}
+.centerBox {
+  border: solid seagreen;
+  width: 33%;
+}
+.rightBox {
+  border: solid gold;
+  width: 33%;
+}
+/* ---------------------------------- */
+/* Main Box */
+.mainBox {
+  border: solid cyan;
+  width: 70%;
+  margin: auto;
+}
+
+.mainImg {
+  border: solid rebeccapurple;
+  height: 36vh;
+}
+.optionBox {
+  border: solid darkmagenta;
+  height: 10vh;
+}
+.recommendBox {
+  border: solid darkred;
+  height: 45vh;
+}
+.trendingBox {
+  border: solid lightslategrey;
+  height: 25vh;
+}
