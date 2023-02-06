@@ -29,7 +29,15 @@
 }
 .offers {
   border: solid greenyellow;
+  display: flex;
   width: 33%;
+}
+/* .prev, .next{
+} */
+
+.text {
+  font-size: 10px;
+  font-family: "Courier New", Courier, monospace;
 }
 .account {
   display: flex;
@@ -74,10 +82,10 @@
   width: 33%;
 }
 .logo {
-  width: 10%;
-  height: 10%;
-  margin: auto;
-  object-fit: cover;
+  display: block;
+  padding-inline-start: 10%;
+  padding-inline-end: 10%;
+  object-fit: scale-down;
 }
 ul {
   list-style-type: none;
@@ -91,6 +99,7 @@ li {
 li a {
   display: block;
   padding: 8px;
+  margin: auto;
   color: black;
   text-decoration: none;
 }
@@ -122,7 +131,7 @@ li a:hover {
 .mainPic {
   width: 100%;
   height: 100%;
-  object-fit: scale-down;
+  object-fit: cover;
 }
 
 .optionBox {
@@ -134,6 +143,7 @@ ul.options {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  text-align: center;
 }
 .imgOpt {
   margin: 0;
@@ -143,25 +153,25 @@ ul.options {
   height: 30%;
   object-fit: contain;
 }
-li {
-  float: left;
+li.optionsList {
+  /* float: left; */
+  display: inline-block;
 }
-li a {
+li a.optionList {
   display: block;
-
   padding: 1px;
   color: black;
   text-decoration: none;
   text-align: center;
 }
-li a:hover {
+li a.optionList:hover {
   text-decoration: underline;
   color: blue;
 }
 
 .recommendBox {
   border: solid seagreen;
-  height: 45vh;
+  height: 70vh;
 }
 .toysMain {
   display: grid;
@@ -189,11 +199,103 @@ li a:hover {
   height: 36vh;
 }
 .toys {
+  display: block;
+  width: 15vw;
+  height: 20vh;
+  margin: auto;
+  object-fit: contain;
+}
+.purchase {
+  display: inline;
+  border-radius: 4px;
+  background-color: #fd8024;
+  width: 100%;
+  padding: 4%;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+.purchase:hover {
+  background-color: white;
+  border: solid #fd8024;
+}
+/* Trending Themes */
+.trendingBox {
+  border: solid lightslategrey;
+  height: 70vh;
+}
+.themeBox {
+  display: grid;
+  grid-template-rows: 25% 25%;
+}
+.theme1 {
+  border: solid red;
+  grid-row: 1;
+  height: 25vh;
+}
+.theme2 {
+  border: solid red;
+  grid-row: 1;
+  height: 25vh;
+}
+.theme3 {
+  border: solid red;
+  grid-row: 1;
+  height: 25vh;
+}
+.theme4 {
+  border: solid red;
+  grid-row: 1;
+  height: 25vh;
+}
+.theme {
+  display: block;
+  margin: auto;
   width: 15vw;
   height: 20vh;
   object-fit: contain;
 }
-.trendingBox {
-  border: solid lightslategrey;
-  height: 25vh;
+.themeText {
+  text-align: center;
+}
+
+/* Css	footer Lego site */
+
+.footer {
+  background-color: rgb(9, 9, 60);
+  color: white;
+  list-style: none;
+}
+.footergrid {
+  background-color: rgb(9, 9, 60);
+  color: white;
+  display: grid;
+  list-style: none;
+  gap: 15rem;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.bottomgrid {
+  font-size: smaller;
+  text-decoration: none;
+  list-style: none;
+  width: 300px;
+}
+.logoBox4 {
+  border: solid black;
+  border-width: 1px;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 125px;
+  width: 125px;
+}
+.usGrid {
+  background-color: rgb(0, 0, 10);
+  width: 110px;
+  margin-left: 20px;
+  height: 40px;
+  list-style: none;
+}
+ul {
+  list-style: none;
 }
