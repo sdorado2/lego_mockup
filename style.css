@@ -113,10 +113,53 @@ li a:hover {
   width: 33%;
 }
 .rightBox {
+  display: grid;
+  grid-template-columns: 33%;
+  grid-template-rows: 33%;
+  justify-content: right;
   border: solid gold;
   width: 33%;
 }
 
+.bottomLBox{
+  grid-row: 1;
+  height: 4.5vh;
+  border: solid black;
+  border-radius: 22px;
+  background-color: white;
+  /* width : 33%; */
+}
+.search{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.bottomCBox{
+  grid-row: 1;
+  height: 4.5vh;
+  border: solid black;
+  /* width : 33%; */
+}
+.heart{
+  display: block;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+.bottomRBox{
+  display: flex;
+  grid-row: 1;
+  height: 4.5vh;
+  border: solid black;
+  /* width : 33%; */
+}
+.bag{
+  display: block;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
 /* ---------------------------------- */
 /* Main Box */
 .mainBox {
@@ -229,22 +272,22 @@ li a.optionList:hover {
   grid-template-rows: 25% 25%;
 }
 .theme1 {
-  border: solid red;
+  /* border: solid red; */
   grid-row: 1;
   height: 25vh;
 }
 .theme2 {
-  border: solid red;
+  /* border: solid red; */
   grid-row: 1;
   height: 25vh;
 }
 .theme3 {
-  border: solid red;
+  /* border: solid red; */
   grid-row: 1;
   height: 25vh;
 }
 .theme4 {
-  border: solid red;
+  /* border: solid red; */
   grid-row: 1;
   height: 25vh;
 }
